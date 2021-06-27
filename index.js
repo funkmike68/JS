@@ -25,8 +25,6 @@ console.log(`My aunt ${aunts[4]} truly loved the finer things in life.`);
 function hola() {
   // logic
   console.log("Hola Glenny!");
-  console.log("Hola Paola!");
-  console.log("Hola Julio!");
 }
 
 hola();
@@ -36,3 +34,21 @@ function food() {
 }
 
 food();
+
+// Functions - parameters, arguments
+function greet(person) {
+  console.log(`Hola ${person}.`);
+}
+
+greet("Glenny");
+
+function meal(dinner) {
+  console.log(`We are having steak and ${dinner} for dinner tonight.`);
+}
+
+const dish = "chicken";
+
+meal("jumbo shrimp");
+meal("lobster");
+// Variables can also be used
+meal(dish);
