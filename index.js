@@ -1,3 +1,4 @@
+/*
 // Arrays
 
 const favTeams = ["Cardinals", "Tigers", "Blues", "Warriors", "Rams"];
@@ -18,3 +19,20 @@ console.log(`My aunt ${aunts[1]} loves to play board games.`);
 aunts[4] = "Alice";
 
 console.log(`My aunt ${aunts[4]} truly loved the finer things in life.`);
+*/
+
+// Functions - declare, invoke
+function hola() {
+  // logic
+  console.log("Hola Glenny!");
+  console.log("Hola Paola!");
+  console.log("Hola Julio!");
+}
+
+hola();
+
+function food() {
+  console.log(`I love pizza!`);
+}
+
+food();
